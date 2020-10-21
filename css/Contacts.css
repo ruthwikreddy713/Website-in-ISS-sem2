@@ -1,0 +1,99 @@
+body {
+background-image: url("../img/Dnote.jpg");
+  height: auto; 
+  width: auto;
+  padding: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 0;
+}
+ul {
+    font-size: 2vw;
+    list-style-type: none;
+    margin-left: 50%;
+    padding: 0;
+}
+li {
+    display: inline;
+}
+#Navbar {
+    overflow: hidden;
+     top : 0;
+    width: 100%;
+    z-index: 12;
+    border-style: ridge;
+    background-color: black;
+    font size 10vw;
+}
+#Navbar a {
+    float: right;
+    display: block;
+    text-align: center;
+    padding-bottom: 2vw;
+    padding-right: 2vw;    
+    font size 10vw;
+}
+#Navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+.Image{
+position: absolute;
+margin-top: 10vw;
+height: 1vw;
+margin-left: 22vw;
+width 1vw;
+/*top:70%;
+//width: 100%;*/
+text-align: center;
+}
+#Intr {
+    padding-bottom: 4vw;
+    color: aqua;
+    text-align: center;
+}
+#myimg {
+    padding-top: 10vw;
+    padding-bottom: 1vw;
+     position: absolute;
+  top:10%;
+  padding-left: 36vw;
+  text-align: center;
+    
+}
+.space {
+    margin-top: 20vw;
+}
+.Rev {
+    padding-top: 2vw;
+    text-align: center;
+    font-size: 3vw;
+    color: white;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+#back2Top {
+    overflow: hidden;
+    z-index: 999;
+    display: none;
+    cursor: pointer;
+    position: fixed;
+    bottom: 3vw;
+    right: 0;
+    color: #555;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+}
+#back2Top:hover {
+    background-color: #DDF;
+    color: skyblue;
+}
+.space2 {
+    margin-top: 2vw;
+}

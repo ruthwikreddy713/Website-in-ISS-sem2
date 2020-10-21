@@ -1,0 +1,94 @@
+body {
+background-image: url("https://wallpapercave.com/wp/wp1985277.jpg");
+  height: auto; 
+  width: auto;
+  padding: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 0;
+} 
+ul {
+    font-size: 2vw;
+    list-style-type: none;
+    margin-left: 50%;
+    padding: 0;
+}
+li {
+    display: inline;
+}
+#Navbar {
+    overflow: hidden;
+     top : 0;
+    width: 100%;
+    /*position: fixed;*/
+    border-style: ridge;
+    background-color: black;
+}
+#Navbar a {
+    float: right;
+    display: block;
+    text-align: center;
+    padding-bottom: 2vw;
+    padding-right: 2vw;    
+}
+#Navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+.box {
+    text-align: center;
+    font-size: 2vw;
+    color: red;
+}
+#hw {
+    font-size: 3vw;
+     border: solid;
+    text-align: center;
+    color: gold;
+}
+table{
+    padding-top: 10vw;
+        width: 90%;
+        margin: 3vw;
+        text-align: center;
+        background-color: #C5F0EE;
+        border: 0.5vw solid gray;
+        border-collapse: collapse;
+        border-radius: 0.4vw;
+        padding-left: 0;
+ }
+ th{
+     border: solid;
+  margin: 2vw;
+     font-size: 3vw;
+     color: gold;
+ }
+#back2Top {
+    overflow: hidden;
+    z-index: 999;
+    display: none;
+    cursor: pointer;
+    position: fixed;
+    bottom: 3vw;
+    right: 0;
+    text-align: center;
+    text-decoration: none;
+}
+#back2Top:hover {
+    background-color: #DDF;
+    color: skyblue;
+}
+.space {
+    margin-top: 6vw;
+}
+tr {
+    font-size: 2vw;
+    color: orange;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}

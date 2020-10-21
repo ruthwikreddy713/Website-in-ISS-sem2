@@ -1,0 +1,99 @@
+body {
+background-image: url("../img/wp4728409-joker-2019-wallpapers.jpg");
+  height: auto; 
+  width: auto;
+  padding: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 0;
+}
+ul {
+    font-size: 2vw;
+    list-style-type: none;
+    margin-left: 50%;
+    padding: 0;
+}
+li {
+    display: inline;
+}
+#Navbar {
+    overflow: hidden;
+     top : 0;
+    width: 100%;
+    /*position: fixed;*/
+    border-style: ridge;
+    background-color: black;
+    font size 10vw;
+}
+#Navbar a {
+    float: right;
+    display: block;
+    text-align: center;
+    padding-bottom: 2vw;
+    padding-right: 2vw;    
+    font size 10vw;
+}
+#Navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+
+#Tab {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2vw;
+}
+
+#Tab td, #Tab th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#Tab tr:nth-child(even){background-color: #0ef817;}
+#Tab tr:nth-child(odd){background-color: #07c9f7;}
+#Tab tr:hover {background-color: #0abfe0;}
+
+#Tab th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #f21c45;
+  color: #14e3db;
+}
+.ping {
+ font-size: 3vw; 
+text-align: center;
+    border-style: ridge;
+    background-color: aqua
+}
+.HeadA{
+    text-align: center;
+    color:    #ff0062;
+    font-size: 4vw;
+}
+#back2Top {
+    overflow: hidden;
+    z-index: 999;
+    display: none;
+    cursor: pointer;
+    position: fixed;
+    bottom: 3vw;
+    right: 0;
+    background-color: #DDD;
+  color: #555;
+    text-align: center;
+}
+#back2Top:hover {
+    background-color: #DDF;
+    color: skyblue;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<title>Review</title>
+<link rel="stylesheet" type="text/css" href="../css/Reviews.css">
+<Head>
+<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+   <div id="Navbar">
+    
+<ul>
+<li><a href="index.html">Home</a></li>
+    <li><a href="Contact.html">Contact</a></li>
+<li> <a href="Aboutme.html">Aboutme</a></li>
+<li><a href="Interests.html">Favourites</a></li>
+<li><a href="review.html">Review</a></li>
+</ul>
+<a id="back2Top" title="Back to top" href="#">
+<img height="30vw" width="30vw" src="https://miro.medium.com/max/565/1*zFdLgnGZ2DFXfMJN1-SZyg.png">       
+</a>
+    </div>
+</Head>
+<body>
+    <script src="../js/nbt.js"></script>
+<div class="space"></div>
+    <div id="hw">
+    <p>Let Me know How did you feel</p>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+<div class="box">
+    Name  <input type="text" id="name" value>
+    Skill <input type="text" id="skill" value>
+    Level
+    <select id="level">
+        <option value selected disabled hidden>Select Skill</option>
+        <option value="1">Beginner</option>
+        <option value="2">Medium</option>
+        <option value="3">Expert</option>
+    </select> 
+    Comment <input type="text" id="comment" value>
+    <input type="submit" value="go" onclick="addrow()" id="submit">
+</div>
+<table id="table">
+
+<tr>
+<th>Name</th>
+<th>Skill</th>
+<th>Level</th>
+<th>Comment</th>
+</tr>    
+    
+    
+</table>
+<th>
+<script src="../js/review.js">    
+</script>
+    </th>
+</body>
